@@ -1,0 +1,57 @@
+{
+  "name": "S23-Smart-TAS",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "S23SmartTAS": {
+        "$className": "Folder",
+        "config": {
+          "$path": "config.lua"
+        },
+        "main": {
+          "$path": "main.lua"
+        },
+        "core": {
+          "$className": "Folder",
+          "init": {
+            "$path": "core/init.lua"
+          },
+          "observer": {
+            "$path": "core/observer.lua"
+          },
+          "logger": {
+            "$path": "core/logger.lua"
+          }
+        },
+        "interface": {
+          "$path": "interface"
+        },
+        "scanner": {
+          "$path": "scanner"
+        },
+        "visuals": {
+          "$path": "visuals"
+        },
+        "data": {
+          "$path": "data"
+        }
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "S23SmartTASBootstrap": {
+          "$path": "bootstrap.client.lua"
+        }
+      }
+    },
+    "TestService": {
+      "$className": "TestService",
+      "S23SmartTASTests": {
+        "$path": "tests"
+      }
+    }
+  }
+}
